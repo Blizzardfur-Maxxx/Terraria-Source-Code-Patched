@@ -60,7 +60,7 @@ namespace Terraria
 					}
 					else
 					{
-						MessageBox.Show("Please launch the game from your Steam client.", "Error");
+						main.Run();
 					}
 				}
 				catch (Exception ex)
